@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 function useCurrencyConverter(currency) {
-  const [amount, setAmount] = useState(0);
+  const [amount, setAmount] = useState({});
 
   useEffect(() => {
     let url = fetch(
@@ -24,3 +24,4 @@ function useCurrencyConverter(currency) {
 }
 
 export default useCurrencyConverter;
+
