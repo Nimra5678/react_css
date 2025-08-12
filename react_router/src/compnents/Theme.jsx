@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useState, useEffect } from "react";
-// import Card from "./compnents/Pages/Card";
+
 
 const ThemeContext = createContext();
 

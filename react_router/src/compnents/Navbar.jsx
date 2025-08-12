@@ -5,7 +5,9 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 function Navbar() {
   return (
     <nav>
-      <ul className="flex gap-5  text-lg bg-black text-white p-3 font-semibold">
+      <ul
+        className="flex gap-5  text-lg bg-black text-white p-3 font-semibold dark:text-black dark:bg-white dark:shadow-sm"
+      >
         <li className="font-normal pt-2">
           <NavLink to="/Home">
             <b>NIO</b> EXCHANGE
